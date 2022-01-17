@@ -10,6 +10,7 @@ import { UsersComponent } from './users/users.component';
 import { RepositoriesComponent } from './repositories/repositories.component';
 import { CountPipe } from './count.pipe';
 import { ErrorpageComponent } from './errorpage/errorpage.component';
+import { BodyComponent } from './body/body.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ErrorpageComponent } from './errorpage/errorpage.component';
     UsersComponent,
     RepositoriesComponent,
     CountPipe,
-    ErrorpageComponent
+    ErrorpageComponent,
+    BodyComponent
   ],
   imports: [
     BrowserModule,
