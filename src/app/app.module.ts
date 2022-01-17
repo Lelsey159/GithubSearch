@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { UsersComponent } from './users/users.component';
 import { RepositoriesComponent } from './repositories/repositories.component';
 import { CountPipe } from './count.pipe';
+import { ErrorpageComponent } from './errorpage/errorpage.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CountPipe } from './count.pipe';
     FooterComponent,
     UsersComponent,
     RepositoriesComponent,
-    CountPipe
+    CountPipe,
+    ErrorpageComponent
   ],
   imports: [
     BrowserModule,
