@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { UsersComponent } from './users/users.component';
 import { RepositoriesComponent } from './repositories/repositories.component';
+import { CountPipe } from './count.pipe';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { RepositoriesComponent } from './repositories/repositories.component';
     NavbarComponent,
     FooterComponent,
     UsersComponent,
-    RepositoriesComponent
+    RepositoriesComponent,
+    CountPipe
   ],
   imports: [
     BrowserModule,
