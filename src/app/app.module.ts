@@ -11,6 +11,7 @@ import { RepositoriesComponent } from './repositories/repositories.component';
 import { CountPipe } from './count.pipe';
 import { ErrorpageComponent } from './errorpage/errorpage.component';
 import { BodyComponent } from './body/body.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { BodyComponent } from './body/body.component';
     RepositoriesComponent,
     CountPipe,
     ErrorpageComponent,
-    BodyComponent
+    BodyComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

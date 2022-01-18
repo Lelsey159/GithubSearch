@@ -7,7 +7,7 @@ import { GetService } from '../get-service/get.service';
 })
 export class RepositoriesComponent implements OnInit {
   repoitems: any[];
-  repoName:string= "bootsrap";
+  repoName:string= "django";
 
   constructor(private GetService: GetService) { 
     
